@@ -4,7 +4,7 @@
 // ヒント: const の使い方を調べてみましょう
 
 // ここを変更する
-const a: number = 1;
+let a: number = 1;
 
 // ここがエラーにならないようにする
 a++;
@@ -13,19 +13,19 @@ a++;
 const b: number = 2;
 
 // ここの型を修正する
-const c: string = b;
+const c: number = b;
 
 // Q3: 変数 d の定義を修正して型エラーを直してください
 
 // ここの型を修正する
-const d: string = "hello";
+const d: 'hello' = 'hello';
 
 // ここがエラーにならないようにする
-const e: "hello" = d;
+const e: 'hello' = d;
 
 // ---------- 型推論 (Type Inference) ----------
 
 // Q4: 変数 g の定義を修正して型エラーを直してください
 const f = 1;
 
-const g: /* ここに型を書く */ = f;
+const g: number = f;
