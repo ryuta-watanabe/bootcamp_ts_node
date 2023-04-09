@@ -18,10 +18,10 @@ const c: number = b;
 // Q3: 変数 d の定義を修正して型エラーを直してください
 
 // ここの型を修正する
-const d: 'hello' = 'hello';
+const d: "hello" = "hello";
 
 // ここがエラーにならないようにする
-const e: 'hello' = d;
+const e: "hello" = d;
 
 // ---------- 型推論 (Type Inference) ----------
 
